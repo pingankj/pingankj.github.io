@@ -1,3 +1,3 @@
-var posts=["2024/11/26/hello-world/","2024/11/27/windows/"];function toRandomPost(){
+var posts=["wenzhang/创建博客/","wenzhang/windows/","wenzhang/hello-world/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
